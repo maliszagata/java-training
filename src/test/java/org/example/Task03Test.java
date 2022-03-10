@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Task03Test {
     @Test
-    public void getCaptcha() {
+    void getCaptcha() {
         assertEquals(Task03.getCaptcha("1122"), 3);
         assertEquals(Task03.getCaptcha("1111"), 4);
         assertEquals(Task03.getCaptcha("1234"), 0);
